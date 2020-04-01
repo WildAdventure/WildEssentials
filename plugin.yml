@@ -1,0 +1,45 @@
+name: WildEssentials
+main: com.gmail.filoghost.wildessentials.WildEssentials
+version: 1.0
+softdepend: [WildCommons]
+
+commands:
+   fly:
+      description: Abilita la fly mode.
+   gamemode:
+      description: Cambia la gamemode.
+      aliases: [gm]
+   enchant:
+      description: Incanta un oggetto.
+   list:
+      description: Lista dei giocatori online.
+      aliases: [who, online]
+   invsee:
+      description: Apri l'inventario di un giocatore.
+      aliases: [openinv]
+   enderchest:
+      description: Apri l'enderchest di un giocatore.
+   top:
+      description: Vai al punto piu' alto.
+   teleport:
+      description: Teletrasporto.
+      aliases: [tp]
+   tppos:
+      description: Teletrasporto.
+   tphere:
+      description: Teletrasporto.
+      aliases: [s]
+   lag:
+      description: Controlla il lag.
+   hat:
+      description: Metti un blocco in testa.
+   head:
+      description: Ottieni la testa di un giocatore.
+   itemdb:
+      description: Controlla gli id.
+   item:
+      description: Ricevi un oggetto.
+      aliases: [i]
+   clearinventory:
+      description: Pulisce l'inventario.
+      aliases: [ci]
